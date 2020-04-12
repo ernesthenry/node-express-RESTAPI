@@ -34,7 +34,7 @@ Method Signature:
 
 ```js
 app.put('/localhost/contact/:contactId', (req,res) ={
-    ................
+    /////
 })
 ```
 
@@ -44,6 +44,6 @@ Method Signature:
 
 ```js
 app.delete('/localhost/contact/:contactId', (req,res) ={
-    ................
+    //////////
 })
 ```
