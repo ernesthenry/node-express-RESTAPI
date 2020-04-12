@@ -1,4 +1,4 @@
-## This project covers the basics of creating API endpoints with Nodejs and Express.
+## In this projcet, we are creating API endpoints with Nodejs and Express.
 
 #### We are using Mongodb as our database to persist data.
 
@@ -13,8 +13,8 @@ The different end points include:
 Method Signature:
 
 ```js
-app.post('/localhost/contact', (req,res) ={
-    ................
+app.post('/localhost/contact', (req,res) => {
+    ///////
 })
 ```
 
@@ -23,8 +23,8 @@ app.post('/localhost/contact', (req,res) ={
 Method Signature:
 
 ```js
-app.get('/localhost/contact', (req,res) ={
-    ................
+app.get('/localhost/contact', (req,res) => {
+    //////
 })
 ```
 
