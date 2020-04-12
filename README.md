@@ -1,6 +1,6 @@
 ## In this projcet, we are creating API endpoints with Nodejs and Express.
 
-#### We are using Mongodb as our database to persist data.
+### We are using Mongodb as our database to persist data.
 
 ### We are testing the end points with postman
 
