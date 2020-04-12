@@ -43,7 +43,7 @@ app.get('/contact/:contactID', (req,res) => {
 Method Signature:
 
 ```js
-app.put('/contact/:contactID', (req,res) ={
+app.put('/contact/:contactID', (req,res) => {
     /////
 })
 ```
@@ -53,7 +53,7 @@ app.put('/contact/:contactID', (req,res) ={
 Method Signature:
 
 ```js
-app.delete('/contact/:contactID', (req,res) ={
+app.delete('/contact/:contactID', (req,res) => {
     //////////
 })
 ```
