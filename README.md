@@ -13,7 +13,7 @@ The different end points include:
 Method Signature:
 
 ```js
-app.post('/localhost/contact', (req,res) => {
+app.post('/contact', (req,res) => {
     ///////
 })
 ```
@@ -23,7 +23,7 @@ app.post('/localhost/contact', (req,res) => {
 Method Signature:
 
 ```js
-app.get('/localhost/contact', (req,res) => {
+app.get('/contact', (req,res) => {
     //////
 })
 ```
@@ -43,7 +43,7 @@ app.get('/contact/:contactID', (req,res) => {
 Method Signature:
 
 ```js
-app.put('/contact/:contactId', (req,res) ={
+app.put('/contact/:contactID', (req,res) ={
     /////
 })
 ```
@@ -53,7 +53,7 @@ app.put('/contact/:contactId', (req,res) ={
 Method Signature:
 
 ```js
-app.delete('/contact/:contactId', (req,res) ={
+app.delete('/contact/:contactID', (req,res) ={
     //////////
 })
 ```
