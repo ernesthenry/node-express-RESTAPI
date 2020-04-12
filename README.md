@@ -28,12 +28,22 @@ app.get('/localhost/contact', (req,res) => {
 })
 ```
 
+### `GET SPECIFIC ITEM`
+
+Method Signature:
+
+```js
+app.get('/contact/:contactID', (req,res) => {
+    //////
+})
+```
+
 ### `PUT`
 
 Method Signature:
 
 ```js
-app.put('/localhost/contact/:contactId', (req,res) ={
+app.put('/contact/:contactId', (req,res) ={
     /////
 })
 ```
@@ -43,7 +53,7 @@ app.put('/localhost/contact/:contactId', (req,res) ={
 Method Signature:
 
 ```js
-app.delete('/localhost/contact/:contactId', (req,res) ={
+app.delete('/contact/:contactId', (req,res) ={
     //////////
 })
 ```
