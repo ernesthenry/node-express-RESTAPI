@@ -1,34 +1,31 @@
-import { request } from "express"
-import { 
-    addNewContact,
-     getContacts,
-     getContactWithId,
-     updateContact,
-     deleteContact
-    } from '../controllers/crmController'
+import { addnewContact,
+    getContacts,
+    getContactWithID,
+    updateContact,
+    deleteContact
+} from '../controllers/crmController';
 
-const routes = (app) =>  {
-    app.route('/contact')
-        .get((req,res,next) => {
-            //middleware
-            console.log(`Request from: ${req.originalUrl}`)
-            console.log(`Request type: ${req.method}`)
-            next()
-        }, getContacts)
+const routes = (app) => {
+app.route('/contact')
+    .get((req,res, next) => {
+        // middleware
+        console.log(`Request from: ${req.originalUrl}`)
+        console.log(`Request type: ${req.method}`)
+        next();
+    }, getContacts)
+    
+    // Post endpoint
+    .post(addnewContact);
 
-
-// POST endpoint
-        .post(addNewContact)
-
-    app.route('/contact/:contactID')
+app.route('/contact/:contactID')
     // get a specific contact
-        .get(getContactWithId)
+    .get(getContactWithID)
 
-        // updating a specific contact
-        .put(updateContact)
+    // updating a specific contact
+    .put(updateContact)
 
-        // deleting a specific contact
-        .delete(deleteContact)
+    // deleting a specific contact
+    .delete(deleteContact);
 }
 
 export default routes;

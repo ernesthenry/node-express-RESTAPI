@@ -1,5 +1,4 @@
-import mongoose from 'mongoose'
-
+import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
@@ -18,12 +17,11 @@ export const ContactSchema = new Schema({
     company: {
         type: String
     },
-    phoneNumber: {
-        type: Number,
+    phone: {
+        type: Number
     },
     created_date: {
         type: Date,
         default: Date.now
     }
-})
-
+});
