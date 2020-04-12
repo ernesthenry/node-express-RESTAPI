@@ -8,7 +8,7 @@ The different end points include:
 - PUT 
 - DELETE
 
-### `POST`
+### `ADD NEW ITEM`
 
 Method Signature:
 
@@ -18,7 +18,7 @@ app.post('/localhost/contact', (req,res) => {
 })
 ```
 
-### `GET`
+### `GET ALL ITEMS`
 
 Method Signature:
 
@@ -28,7 +28,7 @@ app.get('/localhost/contact', (req,res) => {
 })
 ```
 
-### `GET SPECIFIC ITEM`
+### `GET A SPECIFIC ITEM`
 
 Method Signature:
 
@@ -38,7 +38,7 @@ app.get('/contact/:contactID', (req,res) => {
 })
 ```
 
-### `PUT`
+### `UPDATE A SPECIFIC ITEM`
 
 Method Signature:
 
@@ -48,7 +48,7 @@ app.put('/contact/:contactId', (req,res) ={
 })
 ```
 
-### `DELETE`
+### `DELETE A SPECIFIC ITEM`
 
 Method Signature:
 
